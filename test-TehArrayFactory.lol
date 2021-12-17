@@ -3,7 +3,7 @@ BTW, this clazz once tested must be copied to ur main file, loading filez in lol
 
   O HAI IM TehArrayFactory BTW, java style xD
     
-    BTW, "I HAS A foo ITZ LIEK TehArray" don't worx, bugz? :(  BUKKIT fieldz are not cloned but referenced, so this iz teh workaround"
+    BTW, "I HAS A foo ITZ LIEK TehArray" don't worx, bugz? :(  BUKKIT fieldz are not cloned but referenced, so dis fucktory iz teh workaround"
 
     HOW IZ I constructingTehShinyBrandNewArray
       I HAS A arr ITZ A BUKKIT
@@ -11,7 +11,6 @@ BTW, this clazz once tested must be copied to ur main file, loading filez in lol
       arr HAS A maxSize ITZ A NOOB
       FOUND YR arr
     IF U SAY SO    
-
 
     HOW IZ I adding YR new AN YR array
       NOT array'Z size, O RLY?, YA RLY, array'Z size R 0, array'Z maxSize R 0, OIC
@@ -47,6 +46,16 @@ BTW, this clazz once tested must be copied to ur main file, loading filez in lol
       array'Z SRS DIFF OF array'Z size AN 1 R NOOB
       array'Z size R DIFF OF array'Z size AN 1
       FOUND YR removedElement
+    IF U SAY SO
+
+    HOW IZ I having YR item AN YR array
+      I HAS A rezult ITZ 0  BTW, numbas are somehow easier to handle than TROOFs
+      IM IN YR loopie UPPIN YR x TIL BOTH SAEM x AN array'Z size
+        I HAS A testedItem ITZ array'Z SRS x
+        BOTH SAEM item AN testedItem
+        O RLY?, YA RLY, rezult R 1, OIC
+      IM OUTTA YR loopie
+      FOUND YR rezult
     IF U SAY SO
 
     HOW IZ I yarnizing YR array
@@ -182,5 +191,16 @@ BTW, this clazz once tested must be copied to ur main file, loading filez in lol
   TehArrayFactory IZ adding YR "item1" AN YR arr9 MKAY
   TehArrayFactory IZ geting YR 1 AN YR arr9 MKAY
   VISIBLE "After test: expecin errz :)))) u noob ofc it worx xD :(D)                                "
+
+  VISIBLE "Test 14: having"
+  I HAS A arr11 ITZ TehArrayFactory IZ constructingTehShinyBrandNewArray MKAY
+  TehArrayFactory IZ adding YR "item1" AN YR arr11 MKAY
+  TehArrayFactory IZ adding YR "item2" AN YR arr11 MKAY
+  TehArrayFactory IZ adding YR "item3" AN YR arr11 MKAY
+  VISIBLE "Shood has first - item1  : " AN TehArrayFactory IZ having YR "item1" AN YR arr11 MKAY
+  VISIBLE "Shood has middle - item2 : " AN TehArrayFactory IZ having YR "item2" AN YR arr11 MKAY
+  VISIBLE "Shood has last - item3   : " AN TehArrayFactory IZ having YR "item3" AN YR arr11 MKAY
+  VISIBLE "Shood not has item4      : " AN TehArrayFactory IZ having YR "item4" AN YR arr11 MKAY
+  VISIBLE "After test :)"
 
 KTHXBYE GL HF

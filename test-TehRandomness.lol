@@ -1,8 +1,8 @@
 HAI "This iz teh test"
 
   O HAI IM TehRandomness
-    I HAS A multiplier ITZ 1337
-    I HAS A modulo ITZ 2137
+    I HAS A multiplier ITZ 16807
+    I HAS A prime ITZ 2137    BTW chaotix bhvr dependz much on dis prime
     I HAS A x0 ITZ 999
 
     HOW IZ I absolute YR num
@@ -15,15 +15,8 @@ HAI "This iz teh test"
     IF U SAY SO
 
     HOW IZ I generating YR min AN YR max
-      BTW r * X * (1 - X)
-      ME'Z x0 R MOD OF ...
-        PRODUKT OF ...
-          ME'Z multiplier ...
-          AN PRODUKT OF ME'Z x0 ...
-            AN DIFF OF 1 AN ME'Z x0 ...
-        AN ME'Z modulo
-      
-      ME'Z x0 R ME IZ absolute YR ME'Z x0 MKAY
+      ME'Z x0 R PRODUKT OF ME'Z multiplier AN ME'Z x0
+      ME'Z x0 R MOD OF ME'Z x0 AN ME'Z prime
 
       FOUND YR SUM OF ...
         MOD OF ...
