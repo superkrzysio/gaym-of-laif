@@ -1,17 +1,9 @@
 HAI "Dear reader"
 
-  OBTW
-   TODO:
-   initialize game field
-   initialise rules
-   maek calulaiton
-   run game looop
-   maek graphix
-  TLDR
-
   BTW *********************************************************************************
-  BTW *********************************************************************************
+  BTW ** classes **********************************************************************
   
+
   O HAI IM TehArrayFactory BTW, java style xD
     
     BTW, "I HAS A foo ITZ LIEK TehArray" don't worx, bugz? :(  BUKKIT fieldz are not cloned but referenced, so dis fucktory iz teh workaround"
@@ -252,9 +244,8 @@ HAI "Dear reader"
   IF U SAY SO
 
   BTW *********************************************************************************
-  BTW *********************************************************************************
+  BTW ** compoze bord - important clazz ***********************************************
 
-  BTW compoze bord  
   O HAI IM TehBoard
   
     I HAS A widht ITZ 30
@@ -315,12 +306,6 @@ HAI "Dear reader"
       YA RLY
         y R DIFF OF y AN ME'Z heigth
       OIC
-OBTW      
-      EITHER OF DIFFRINT oldX AN x AN DIFFRINT oldY AN y, O RLY?
-      YA RLY 
-        INVISIBLE "Getting " AN oldX AN "," AN oldY AN " so got " AN x AN "," AN y
-      OIC
-    TLDR
 
       I HAS A row ITZ ME'Z contentz'Z SRS y
       I HAS A cell ITZ row'Z SRS x
@@ -390,6 +375,12 @@ OBTW
       IM OUTTA YR colz
     IM OUTTA YR rowz
   IF U SAY SO
+
+  HOW IZ I sleepy
+    IM IN YR nap UPPIN YR nrg TIL BOTH SAEM nrg AN 1000000
+      PRODUKT OF nrg AN 1.1
+    IM OUTTA YR nap
+  IF U SAY SO
   
   BTW *********************************************************************************
   BTW *********************************************************************************
@@ -412,7 +403,7 @@ OBTW
 
   BTW, test configs
 
-  HOW IZ I settingRpentomino
+  HOW IZ I settingR_pentomino
     TehBoard IZ set YR 11 AN YR 12 AN YR 1 MKAY
     TehBoard IZ set YR 12 AN YR 11 AN YR 1 MKAY
     TehBoard IZ set YR 12 AN YR 12 AN YR 1 MKAY
@@ -437,7 +428,7 @@ OBTW
 
   BTW Graphix'Z clearingOption R FAIL
   
-  I IZ settingRpentomino MKAY
+  I IZ settingR_pentomino MKAY
 
   IM IN YR loopie UPPIN YR i TIL BOTH SAEM i AN 200
 
@@ -446,7 +437,10 @@ OBTW
     Graphix IZ visible MKAY
 
     TehBoard IZ calculaitink YR spawnRulez AN YR deadRulez MKAY
+    
+    I IZ sleepy MKAY    BTW, remove taht fo faster lolgame xperience
+
   IM OUTTA YR loopie
 
   
-KTHXBYE
+KTHXBYE GG WP
